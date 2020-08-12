@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 10vh;
+    width: 100vw;
+    position: relative;   
+    padding: 20px;
+    z-index: 10;
+    background-color: rgb(119, 147, 175);
+}
+.text1{
+        display: flex;
+        position: absolute;
+        width: 300px;
+        bottom: 200px;
+        left: 200px;
+        font: 20px/15px D-DIN-Bold,Arial,Verdana,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        color: black;
+}
+.text2{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 200px;
+    right: 200px;
+    font: 20px/15px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.text3{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 200px;
+    left: 200px;
+    font: 20px/15px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.text4{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 200px;
+    left: 200px;
+    font: 20px/15px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.text5{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 350px;
+    left: 150px;
+    font: 50px/35px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.text5half{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 150px;
+    left: 150px;
+    font: 20px/20px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.text6top{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 520px;
+    right: 200px;
+    font: 20px/15px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.text6{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 350px;
+    right: 200px;
+    font: 40px/30px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.text6bottom{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    bottom: 200px;
+    right: 200px;
+    font: 20px/18px D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+.menuButton{
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.spacexLogo{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+}
+
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.firstDown{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-image: url(https://www.nasaspaceflight.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-02-at-21.54.46.png);
+    background-size: cover;
+}
+
+.secondDown{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-image: url(https://cdn1.expresscomputer.in/wp-content/uploads/2020/01/30121704/SpaceX-featured-image.png);
+    background-size: cover;
+}
+.thirdDown{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-image: url(https://inteng-storage.s3.amazonaws.com/img/iea/nR6bBvoY6o/sizes/starship-hop_md.jpg);
+    background-size: cover;
+}
+.fourthDown{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-image: url(https://i0.wp.com/asiatimes.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-23-at-5.22.16-PM.png?fit=1134%2C766&ssl=1);
+    background-size: cover;
+}
+.fifthDown{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-image: url(https://i.insider.com/5ebb5c65fc593d4cfc62f945?width=1100&format=jpeg&auto=webp);
+    background-size: cover;
+}
+.sixthDown{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-image: url(https://www.teslarati.com/wp-content/uploads/2020/04/Lunar-Starship-Artemis-SpaceX-render-1-crop-c.jpg);
+    background-size: cover;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
